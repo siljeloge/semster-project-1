@@ -1,0 +1,451 @@
+header{
+    background-color: rgba(254, 244, 209, 1);
+    max-height: 220px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0%;
+}
+
+.logo{
+    mix-blend-mode: multiply;
+    margin-left: 170px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav ul{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    font-weight: 400;
+    font-size: 26px;
+  }
+
+  nav li .active{
+    font-size: 26px;
+    font-weight: 400;
+  }
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: "Kulim Park", sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    padding: 15px;
+    background-color: white;
+}
+
+footer{
+    background-color: rgba(254, 244, 209, 1);
+    font-family: "Kulim Park", sans-serif;
+    font-weight: lighter;
+    height: 130px;
+    text-align: center;
+}
+
+.footerlinks a{
+    color: black;
+    text-decoration: none;
+    font-family: "Kulim Park", sans-serif;
+    font-size: 16px;
+    padding: 30px;
+    font-weight: 150;
+}
+
+.footerlinks li{
+    display: inline-block;
+    padding-top: 20px;
+}
+
+/* Home */
+
+h1{
+    font-family: "Kulim Park", sans-serif;
+    font-weight: lighter;
+    font-size: 60px;
+    color: #6C0053;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-top: 100px;
+}
+
+#vrgoggles{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+h2{
+    font-family: "Kulim Park", sans-serif;
+    font-weight: 300;
+    color: #6C0053;
+    text-align: center;
+    font-size: 26px;
+}
+
+#kidplays{
+    width: 40%;
+    padding-left: 180px;
+    padding-top: 30px;
+    float: left;
+    padding-right: 20px;
+}
+
+h3{
+    font-family: "Kulim Park", sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    letter-spacing: 10%;
+    line-height: 30px;
+    max-width: 1250px;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+
+.specialevents h1{
+    font-family: "Kulim Park", sans-serif;
+    font-weight: lighter;
+    font-size: 56px;
+    color: #6C0053;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-top: 100px;
+
+}
+
+#astronaut{
+    width: 35%;
+    margin-left: 180px;
+}
+
+#specialevents1, #specialevents3{
+    font-size: 22px;
+    font-family: "Kulim Park", sans-serif;
+    margin-left: 180px;
+    margin-top: 1px;
+}
+
+#specialevents2, #specialevents4{
+    font-family: "Kulim Park", sans-serif;
+    font-size: 16px;
+    margin-left: 182px;
+    margin-top: -15px;
+    width: 480px;
+}
+
+#specialevents4{
+margin-bottom: 150px;
+}
+
+#energetica{
+    width: 35%;
+    margin-left: 180px;
+    margin-top: 15px;
+}
+
+#nightinmuseum{
+    width: 35%;
+    float: right;
+    margin-top: -1104px;
+    margin-right: 210px;
+}
+
+#specialevents5{
+    font-size: 22px;
+    font-family: "Kulim Park", sans-serif;
+    margin-left: 727px;
+    margin-top: -327px;
+}
+
+#specialevents6{
+    font-family: "Kulim Park", sans-serif;
+    font-size: 16px;
+    margin-left: 727px;
+    width: 480px;
+    margin-bottom: 190px;
+    margin-top: -15px;
+}
+
+/* Exhibitions */
+
+.exhibitionspaces{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.exhibitionspaces h2{
+    font-size: 30px;
+    color: black;
+    letter-spacing: 4px;
+    margin-top: 50px;
+}
+
+.exhibitionspaces p{
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: "Kulim Park", sans-serif;
+    max-width: 500px;
+    float: right;
+    padding-left: 10px;
+    margin-top: 0px;
+    letter-spacing: 3px;
+}
+
+.exhibitionspaces img{
+    max-width: 500px;
+}
+
+.ecology img{
+    margin-bottom: 40px;
+}
+
+/* Visit */
+
+.information h2{
+    font-size: 22px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: black;
+    margin-right: 170px;
+    margin-bottom: -5px;
+}
+
+.information p{
+    font-family: "Kulim Park", sans-serif;
+    float: right;
+    max-width: 400px;
+    margin-right: 470px;
+    margin-bottom: 20px;
+}
+
+.address{
+    margin-right: 50px;
+}
+
+.food h2{
+margin-right: 175px;
+}
+
+.admission h2{
+    margin-right: 205px;
+}
+
+.access h2{
+    margin-right: 190px;
+}
+
+.clock p{
+    margin-right: 640px;
+}
+
+.information img{
+    margin-left: 380px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#exhibitionimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Privacy Policy */
+
+.privacy h2, .terms h2{
+    color: black;
+    font-size: 24px;
+}
+
+.privacy p, .terms p{
+    font-family: "Kulim Park", sans-serif;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+#bold{
+    font-weight: bold;
+    margin-bottom: -15px;
+    margin-top: 30px;
+}
+
+/* Contribution */
+
+.support{
+    width: 500px;
+    font-family: "Kulim Park", sans-serif;
+    float: left;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+
+.support h1, .volunteer h1, .internships h1{
+    color: black;
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-right: 400px;
+}
+
+.support p, .volunteer p, .internships p {
+    font-size: 20px;
+}
+
+#libraryimg{
+    max-width: 400px;
+    margin-top: 100px;
+    padding-left: 30px;
+}
+
+.volunteer{
+    width: 920px;
+    font-family: "Kulim Park", sans-serif;
+    margin-left: 200px;
+    margin-top: -100px;
+}
+
+.volunteer h1, .internships h1{
+    margin-right: 800px;
+}
+
+.internships{
+    width: 920px;
+    font-family: "Kulim Park", sans-serif;
+    margin-left: 200px;
+    margin-top: -40px;
+}
+
+#animatedlabimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 73%;
+    margin-top: 50px;
+}
+
+#microscopeimg{
+    width: 500px;
+    margin-left: 185px;
+    margin-bottom: 40px;
+}
+
+#giantantimg{
+    height: 332px;
+    padding-top: 49px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+/* Explore */
+
+#kidreadsimg, #museumimg, #mathimg{
+    width: 500px;
+    float: left;
+    padding: 10px;
+}
+
+.images{
+    margin-left: 160px;
+}
+
+#museumimg{
+    height: 470px;
+}
+
+.forkids, .forteachers, .forresearchers{
+    font-family: "Kulim Park", sans-serif;
+}
+
+.forkids h1, .forteachers h1, .forresearchers h1{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: normal;
+    font-family: "Kulim Park", sans-serif;
+}
+
+.forkids h1{
+    margin-right: 760px;
+}
+
+.forkids p{
+    font-size: 20px;
+    margin-left: 170px;
+    margin-top: -10px;
+    letter-spacing: 3px;
+    line-height: 30px;
+    font-family: "Kulim Park", sans-serif;
+}
+
+.forkids{
+    width: 1180px;
+}
+
+#redcoatimg{
+    height: 800px;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+
+.forteachers{
+    float: right;
+    width: 400px;
+    margin-right: 310px;
+    margin-top: -70px;
+}
+
+.forteachers h1{
+    margin-right: 260px;
+}
+
+.forteachers p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+#skeletonimg{
+    width: 450px;
+    float: right;
+    margin-right: 260px;
+    margin-top: -300px;
+}
+
+.forresearchers{
+    width: 900px;
+    margin-left: 175px;
+    margin-bottom: 100px;
+    margin-top: -60px;
+}
+
+.forresearchers h1{
+    margin-right: 730px;
+}
+
+.forresearchers p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
