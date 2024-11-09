@@ -22,6 +22,10 @@ body{
 
 nav li{
     display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
 }
 
 nav ul{
@@ -62,8 +66,8 @@ footer{
     color: black;
     text-decoration: none;
     font-family: "Kulim Park", sans-serif;
-    font-size: 16px;
-    padding: 30px;
+    font-size: 14px;
+    padding: 20px;
     font-weight: 150;
 }
 
@@ -126,7 +130,6 @@ h3{
     text-align: center;
     letter-spacing: 10px;
     margin-top: 100px;
-
 }
 
 #astronaut{
@@ -178,7 +181,7 @@ margin-bottom: 150px;
     font-size: 16px;
     margin-left: 727px;
     width: 480px;
-    margin-bottom: 190px;
+    margin-bottom: 150px;
     margin-top: -15px;
 }
 
@@ -237,6 +240,11 @@ margin-bottom: 150px;
 
 .address{
     margin-right: 50px;
+    margin-top: 80px;
+}
+
+.address p{
+    margin-right: 510px;
 }
 
 .food h2{
@@ -251,14 +259,18 @@ margin-right: 175px;
     margin-right: 190px;
 }
 
+.clock h2, .shop h2{
+    margin-right: 250px;
+}
+
 .clock p{
-    margin-right: 640px;
+    margin-right: 680px;
 }
 
 .information img{
     margin-left: 380px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: -20px;
+    margin-bottom: 70px;
 }
 
 #exhibitionimg{
@@ -270,11 +282,19 @@ margin-right: 175px;
     padding-bottom: 50px;
 }
 
-/* Privacy Policy */
+/* Privacy Policy & Terms and conditions*/
 
 .privacy h2, .terms h2{
     color: black;
+}
+
+.privacy h3, .terms h3{
+    color: black;
     font-size: 24px;
+    margin-left: 30px;
+    font-weight: bold;
+    margin-bottom: -15px;
+    margin-top: 30px;
 }
 
 .privacy p, .terms p{
@@ -282,12 +302,6 @@ margin-right: 175px;
     font-size: 18px;
     margin-left: 30px;
     margin-bottom: 30px;
-}
-
-#bold{
-    font-weight: bold;
-    margin-bottom: -15px;
-    margin-top: 30px;
 }
 
 /* Contribution */
@@ -300,17 +314,22 @@ margin-right: 175px;
     margin-bottom: 30px;
 }
 
-
 .support h1, .volunteer h1, .internships h1{
     color: black;
     font-size: 22px;
-    letter-spacing: 3px;
-    font-weight: bold;
-    margin-right: 400px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: -10px;
+}
+
+.support h1{
+    margin-right: 420px;
 }
 
 .support p, .volunteer p, .internships p {
-    font-size: 20px;
+    font-size: 19px;
+    font-weight: 300;
+    font-family: "Kulim Park", sans-serif;
 }
 
 #libraryimg{
@@ -319,20 +338,22 @@ margin-right: 175px;
     padding-left: 30px;
 }
 
+.volunteer h1{
+    margin-right: 810px;
+}
+
 .volunteer{
     width: 920px;
-    font-family: "Kulim Park", sans-serif;
     margin-left: 200px;
     margin-top: -100px;
 }
 
-.volunteer h1, .internships h1{
+.internships h1{
     margin-right: 800px;
 }
 
 .internships{
     width: 920px;
-    font-family: "Kulim Park", sans-serif;
     margin-left: 200px;
     margin-top: -40px;
 }
@@ -342,20 +363,20 @@ margin-right: 175px;
     margin-left: auto;
     margin-right: auto;
     width: 73%;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 #microscopeimg{
-    width: 500px;
-    margin-left: 185px;
-    margin-bottom: 40px;
+    width: 540px;
+    margin-left: 194px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #giantantimg{
-    height: 332px;
-    padding-top: 49px;
-    margin-left: 50px;
-    margin-bottom: 40px;
+    height: 352px;
+    margin-left: 40px;
+    padding-bottom: 22px;
 }
 
 /* Explore */
@@ -381,7 +402,7 @@ margin-right: 175px;
 .forkids h1, .forteachers h1, .forresearchers h1{
     color: black;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: normal;
     font-family: "Kulim Park", sans-serif;
 }
@@ -394,7 +415,6 @@ margin-right: 175px;
     font-size: 20px;
     margin-left: 170px;
     margin-top: -10px;
-    letter-spacing: 3px;
     line-height: 30px;
     font-family: "Kulim Park", sans-serif;
 }
@@ -417,12 +437,11 @@ margin-right: 175px;
 }
 
 .forteachers h1{
-    margin-right: 260px;
+    margin-right: 270px;
 }
 
 .forteachers p{
     font-size: 20px;
-    letter-spacing: 2px;
     line-height: 30px;
 }
 
@@ -430,7 +449,7 @@ margin-right: 175px;
     width: 450px;
     float: right;
     margin-right: 260px;
-    margin-top: -300px;
+    margin-top: -303px;
 }
 
 .forresearchers{
@@ -446,6 +465,5 @@ margin-right: 175px;
 
 .forresearchers p{
     font-size: 20px;
-    letter-spacing: 2px;
     line-height: 30px;
 }
