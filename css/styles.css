@@ -60,6 +60,7 @@ footer{
     font-weight: lighter;
     height: 130px;
     text-align: center;
+    position: relative;
 }
 
 .footerlinks a{
@@ -101,6 +102,9 @@ h2{
     color: #6C0053;
     text-align: center;
     font-size: 26px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #kidplays{
@@ -114,12 +118,15 @@ h2{
 h3{
     font-family: "Kulim Park", sans-serif;
     font-weight: lighter;
-    font-size: 24px;
+    font-size: 22px;
     letter-spacing: 10%;
     line-height: 30px;
-    max-width: 1250px;
-    margin-top: 50px;
+    max-width: 500px;
+    margin-top: 100px;
     margin-bottom: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .specialevents h1{
@@ -196,7 +203,7 @@ margin-bottom: 150px;
 .exhibitionspaces h2{
     font-size: 30px;
     color: black;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     margin-top: 50px;
 }
 
@@ -236,6 +243,9 @@ margin-bottom: 150px;
     max-width: 400px;
     margin-right: 470px;
     margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .address{
@@ -270,7 +280,10 @@ margin-right: 175px;
 .information img{
     margin-left: 380px;
     margin-top: -20px;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #exhibitionimg{
@@ -306,12 +319,14 @@ margin-right: 175px;
 
 /* Contribution */
 
-.support{
-    width: 500px;
+.support, .volunteer, .internships{
+    max-width: 700px;
     font-family: "Kulim Park", sans-serif;
-    float: left;
-    margin-left: 200px;
     margin-bottom: 30px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .support h1, .volunteer h1, .internships h1{
@@ -322,40 +337,9 @@ margin-right: 175px;
     margin-bottom: -10px;
 }
 
-.support h1{
-    margin-right: 420px;
-}
-
 .support p, .volunteer p, .internships p {
     font-size: 19px;
     font-weight: 300;
-    font-family: "Kulim Park", sans-serif;
-}
-
-#libraryimg{
-    max-width: 400px;
-    margin-top: 100px;
-    padding-left: 30px;
-}
-
-.volunteer h1{
-    margin-right: 810px;
-}
-
-.volunteer{
-    width: 920px;
-    margin-left: 200px;
-    margin-top: -100px;
-}
-
-.internships h1{
-    margin-right: 800px;
-}
-
-.internships{
-    width: 920px;
-    margin-left: 200px;
-    margin-top: -40px;
 }
 
 #animatedlabimg{
@@ -393,77 +377,625 @@ margin-right: 175px;
 
 #museumimg{
     height: 470px;
+    margin-bottom: 100px;
 }
 
 .forkids, .forteachers, .forresearchers{
     font-family: "Kulim Park", sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 900px;
 }
 
 .forkids h1, .forteachers h1, .forresearchers h1{
     color: black;
-    font-size: 24px;
+    font-size: 22px;
+    letter-spacing: 2px;
     font-weight: 500;
-    letter-spacing: normal;
-    font-family: "Kulim Park", sans-serif;
 }
 
-.forkids h1{
-    margin-right: 760px;
-}
-
-.forkids p{
-    font-size: 20px;
-    margin-left: 170px;
+.forkids p, .forresearchers p, .forteachers p{
     margin-top: -10px;
-    line-height: 30px;
-    font-family: "Kulim Park", sans-serif;
-}
-
-.forkids{
-    width: 1180px;
-}
-
-#redcoatimg{
-    height: 800px;
-    margin-left: 170px;
-    margin-top: 30px;
-}
-
-.forteachers{
-    float: right;
-    width: 400px;
-    margin-right: 310px;
-    margin-top: -70px;
-}
-
-.forteachers h1{
-    margin-right: 270px;
-}
-
-.forteachers p{
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 19px;
+    font-weight: 300;
 }
 
 #skeletonimg{
     width: 450px;
-    float: right;
-    margin-right: 260px;
-    margin-top: -303px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
-.forresearchers{
-    width: 900px;
-    margin-left: 175px;
-    margin-bottom: 100px;
-    margin-top: -60px;
+/* Small devices (mobile phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+    header{
+        max-height: 120px;
+    }
+    
+      .logo {
+        max-width: 300px;
+        margin-left: 30px;
+        margin-top: 25px;
+      }
+    
+      nav li {
+        margin-top: -30px;
+        margin-left: -30px;
+      }
+    
+      nav a {
+        font-size: 12px;
+        background-color: white;
+      }
+    
+      nav li .active{
+        font-size: 12px;
+        font-weight: 300;
+        background-color: white;
+      }
+    
+      footer{
+        padding-bottom: 30px;
+        max-height: 80px;
+        font-size: 12px;
+        margin-top: -10px;
+      }
+
+      footer li{
+        font-size: 12px;
+        margin-left: -25px;
+      }
+
+      h1{
+        margin-top: 60px;
+        font-size: 20px;
+      }
+
+      h2{
+        font-size: 16px;
+        font-weight: 400;
+        max-width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -70px;
+      }
+
+      #kidplays{
+        display: none;
+      }
+
+      h3{
+        font-size: 16px;
+        line-height: normal;
+        max-width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+
+      .specialevents h1{
+        font-size: 20px;
+        margin-top: -170px;
+        margin-bottom: 30px;
+      }
+
+      .specialevents h1{
+        margin-top: -100px;
+        font-size: 40px;
+    }
+
+    .specialevents p{
+        max-width: 250px;
+    }
+
+    #astronaut, #energetica, #nightinmuseum{
+        width: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    #nightinmuseum{
+        margin-top: -120px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    #specialevents5, #specialevents3, #specialevents1{
+        margin-top: 5px;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+  }
+
+    #specialevents6, #specialevents2, #specialevents4{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+  }
+
+      .exhibitionspaces img{
+        max-width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .exhibitionspaces p{
+        font-size: 16px;
+        max-width: 300px;
+        margin-top: 10px;
+      }
+
+      .biology p{
+        margin-right: 25px;
+      }
+
+      .ecology p{
+        margin-top: -25px;
+      }
+
+      .information{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .information img{
+        display: none;
+      }
+
+      .information h2{
+        font-size: 16px;
+        font-weight: 600;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .information p{
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 450px;
+        text-align: center;
+      }
+
+      .address{
+        margin-left: 50px;
+        margin-top: -5px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #exhibitionimg, #redcoatimg, #skeletonimg, #libraryimg{
+        display: none;
+      }
+
+      .support h1, .internships h1, .volunteer h1{
+        font-size: 16px;
+      }
+
+      .support p, .internships p, .volunteer p{
+        font-size: 14px;
+        max-width: 350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #microscopeimg, #giantantimg, #animatedlabimg, #kidreadsimg, #mathimg, #museumimg{
+        display: none;
+      }
+
+      .forkids h1, .forresearchers h1, .forteachers h1{
+        font-size: 16px;
+      }
+
+      .forkids p, .forteachers p, .forresearchers p{
+        font-size: 14px;
+        line-height: normal;
+        width: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .forresearchers p{
+        margin-bottom: 50px;
+      }
+    }
+
+
+/* Medium devices (tablets, 600px to 768px) */
+@media only screen and (min-width: 600px) and (max-width: 767px){
+    nav li .active{
+        font-size: 18px;
+        font-weight: 300;
+      }
+
+      nav a {
+        font-size: 18px;
+      }
+
+      header{
+        max-height: 120px;
+    }
+    
+      .logo {
+        max-width: 300px;
+        margin-left: 30px;
+        margin-top: 25px;
+      }
+
+      h2{
+        max-width: 500px;
+      }
+
+      #kidplays{
+        display: none;
+      }
+
+      h3{
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 18px;
+      }
+
+      .specialevents h1{
+        margin-top: -90px;
+        font-size: 30px;
+    }
+
+        .specialevents p{
+        max-width: 450px;
+    }
+
+    #astronaut, #energetica, #nightinmuseum{
+        width: 450px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    #nightinmuseum{
+        margin-top: -120px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    #specialevents5, #specialevents3, #specialevents1{
+        margin-top: 5px;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+  }
+
+        #specialevents6, #specialevents2, #specialevents4{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+  }
+
+      .exhibitionspaces img{
+        max-width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .exhibitionspaces p{
+        font-size: 16px;
+        max-width: 500px;
+      }
+
+      .ecology p{
+        margin-top: -35px;
+        margin-bottom: 50px;
+      }
+
+      .information{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .information img{
+        display: none;
+      }
+
+      .address{
+        margin-left: 50px;
+        margin-top: -5px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .information h2{
+        font-size: 18px;
+        font-weight: 600;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .information p{
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px;
+        text-align: center;
+      }
+
+      #exhibitionimg{
+        display: none;
+      }
+
+      .support, .internships, .volunteer{
+        max-width: 600px;
+      }
+
+      .support h1, .volunteer h1, .internships h1{
+        font-size: 22px;
+      }
+
+      .support p, .volunteer p, .internships p{
+        font-size: 18px;
+      }
+
+      #microscopeimg, #giantantimg{
+        display: none;
+      }
+
+        #kidreadsimg{
+        display: none;
+      }
+
+      .images{
+        max-width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .forkids h1, .forteachers h1, .forresearchers h1{
+        font-size: 22px;
+      }
+
+      .forkids p, .forteachers p, .forresearchers p{
+        width: 500px;
+        font-size: 18px;
+      }
+    }
+
+/* Tablets iPads (Portrait) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    #kidplays{
+        width: 300px;
+        justify-content: center;
+        display: flex;
+        float: left;
+    }
+
+    h3{
+        width: 280px;
+        font-size: 16px;
+        margin-top: 45px;
+        letter-spacing: normal;
+        line-height: normal;
+        justify-content: center;
+        display: flex;
+    }
+
+    .specialevents h1{
+        margin-top: -100px;
+        font-size: 40px;
+    }
+
+    .specialevents p{
+        max-width: 450px;
+    }
+
+    #astronaut, #energetica, #nightinmuseum{
+        width: 450px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    #nightinmuseum{
+        margin-top: -120px;
+    }
+
+    #specialevents5, #specialevents3, #specialevents1{
+        margin-top: 5px;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+  }
+
+    #specialevents6, #specialevents2, #specialevents4{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+  }
+
+    .exhibitionspaces p{
+        max-width: 350px;
+        font-size: 15px;
+}
+    .exhibitionspaces img{
+        max-width: 400px;
 }
 
-.forresearchers h1{
-    margin-right: 730px;
-}
+    .information{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+  }
 
-.forresearchers p{
+    .information img{
+    display: none;
+  }
+
+    .address{
+    margin-left: 50px;
+    margin-top: -5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+    .information h2{
+    font-size: 22px;
+    font-weight: 600;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+    .information p{
     font-size: 20px;
-    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 905px;
+    text-align: center;
+    font-weight: lighter;
+  }
+
+    #exhibitionimg{
+     display: none;
+  }
+
+    #microscopeimg{
+    width: 400px;
+    margin-left: 136px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+    #giantantimg{
+    height: 262px;
+    width: 315px;
+    margin-left: 1px;
+    padding-bottom: 22px;
+    padding: 20px;    
+}
+}
+
+@media (min-width: 1025px) and (max-width: 1273px){
+    #kidplays{
+        width: 470px;
+        justify-content: center;
+        display: flex;
+        float: left;
+    }
+
+    h3{
+        width: 300px;
+        font-size: 20px;
+        margin-top: 45px;
+        letter-spacing: normal;
+        line-height: normal;
+        justify-content: center;
+        display: flex;
+    }
+
+    .specialevents h1{
+        margin-top: -100px;
+        font-size: 40px;
+    }
+
+    .specialevents p{
+        width: 550px;
+    }
+
+    #astronaut, #energetica, #nightinmuseum{
+        width: 550px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    #nightinmuseum{
+        margin-top: -120px;
+    }
+
+    #specialevents5, #specialevents3, #specialevents1{
+        margin-top: 5px;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+  }
+
+    #specialevents6, #specialevents2, #specialevents4{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+        width: 550px;
+  }
+
+  .information h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    width: 450px;
+}
+
+.information p{
+    max-width: 450px;
+    padding-top: 10px;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.clock p{
+    margin-right: 260px;
+    margin-bottom: 30px;
+}
+
+.information img{
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#exhibitionimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 140px;
+    padding-bottom: 50px;
+}
+    
 }
