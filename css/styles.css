@@ -107,26 +107,26 @@ h2{
     margin-right: auto;
 }
 
+.fleximg2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    }
+
 #kidplays{
-    width: 40%;
-    padding-left: 180px;
     padding-top: 30px;
-    float: left;
+    float: right;
     padding-right: 20px;
+    max-width: 500px;
 }
 
 h3{
     font-family: "Kulim Park", sans-serif;
     font-weight: lighter;
     font-size: 22px;
-    letter-spacing: 10%;
     line-height: 30px;
-    max-width: 500px;
-    margin-top: 100px;
-    margin-bottom: 250px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    max-width: 450px;
 }
 
 .specialevents h1{
@@ -350,34 +350,45 @@ margin-right: 175px;
     margin-top: 70px;
 }
 
+.fleximg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
 #microscopeimg{
-    width: 540px;
-    margin-left: 194px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    width: 38%;
+    padding-right: 20px;
 }
 
 #giantantimg{
-    height: 352px;
-    margin-left: 40px;
-    padding-bottom: 22px;
+    width: 36%;
 }
 
 /* Explore */
 
-#kidreadsimg, #museumimg, #mathimg{
-    width: 500px;
-    float: left;
-    padding: 10px;
+#mathimg{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 25px;
 }
 
-.images{
-    margin-left: 160px;
+#kidreadsimg{
+    max-width: 35%;
+    padding-right: 25px;
 }
 
 #museumimg{
-    height: 470px;
-    margin-bottom: 100px;
+    max-width: 33%;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .forkids, .forteachers, .forresearchers{
@@ -478,17 +489,13 @@ margin-right: 175px;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+        padding-top: 70px;
       }
 
-      .specialevents h1{
-        font-size: 20px;
-        margin-top: -170px;
-        margin-bottom: 30px;
-      }
-
-      .specialevents h1{
+    .specialevents h1{
         margin-top: -100px;
-        font-size: 40px;
+        padding-top: 100px;
+        font-size: 20px;
     }
 
     .specialevents p{
@@ -526,17 +533,22 @@ margin-right: 175px;
         margin-right: auto;
   }
 
-      .exhibitionspaces img{
+    .exhibitionspaces img{
         max-width: 300px;
         display: block;
         margin-left: auto;
         margin-right: auto;
       }
 
-      .exhibitionspaces p{
+    .exhibitionspaces p{
         font-size: 16px;
         max-width: 300px;
         margin-top: 10px;
+      }
+
+      .exhibitionspaces h2{
+        margin: 30px;
+        font-size: 22px;
       }
 
       .biology p{
@@ -596,7 +608,7 @@ margin-right: 175px;
         margin-right: auto;
       }
 
-      #microscopeimg, #giantantimg, #animatedlabimg, #kidreadsimg, #mathimg, #museumimg{
+        #kidreadsimg, #mathimg, #museumimg{
         display: none;
       }
 
@@ -615,6 +627,16 @@ margin-right: 175px;
 
       .forresearchers p{
         margin-bottom: 50px;
+      }
+
+      .terms h3, .privacy h3{
+        font-size: 20px;
+        text-align: start;
+      }
+
+      .terms p, .privacy p{
+        font-size: 16px;
+        margin-bottom: -30px;
       }
     }
 
@@ -659,6 +681,7 @@ margin-right: 175px;
 
       .specialevents h1{
         margin-top: -90px;
+        padding-top: 100px;
         font-size: 30px;
     }
 
@@ -763,27 +786,22 @@ margin-right: 175px;
         font-size: 18px;
       }
 
-      #microscopeimg, #giantantimg{
-        display: none;
-      }
-
-        #kidreadsimg{
-        display: none;
-      }
-
-      .images{
-        max-width: 500px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
       .forkids h1, .forteachers h1, .forresearchers h1{
         font-size: 22px;
       }
 
       .forkids p, .forteachers p, .forresearchers p{
-        width: 500px;
+        font-size: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .terms h3, .privacy h3{
+        font-size: 22px;
+        text-align: start;
+      }
+
+      .terms p, .privacy p{
         font-size: 18px;
       }
     }
@@ -793,9 +811,6 @@ margin-right: 175px;
 
     #kidplays{
         width: 300px;
-        justify-content: center;
-        display: flex;
-        float: left;
     }
 
     h3{
@@ -810,6 +825,7 @@ margin-right: 175px;
 
     .specialevents h1{
         margin-top: -100px;
+        padding-top: 150px;
         font-size: 40px;
     }
 
@@ -890,42 +906,34 @@ margin-right: 175px;
      display: none;
   }
 
-    #microscopeimg{
-    width: 400px;
-    margin-left: 136px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
+  .forkids p, .forteachers p, .forresearchers p{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-    #giantantimg{
-    height: 262px;
-    width: 315px;
-    margin-left: 1px;
-    padding-bottom: 22px;
-    padding: 20px;    
-}
+  .terms h3, .privacy h3{
+    font-size: 20px;
+    display: inline-block;
+  }
+
+  .terms p, .privacy p{
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1273px){
-    #kidplays{
-        width: 470px;
-        justify-content: center;
-        display: flex;
-        float: left;
-    }
-
+    
     h3{
         width: 300px;
         font-size: 20px;
         margin-top: 45px;
-        letter-spacing: normal;
-        line-height: normal;
-        justify-content: center;
-        display: flex;
     }
 
     .specialevents h1{
         margin-top: -100px;
+        padding-top: 150px;
         font-size: 40px;
     }
 
@@ -963,30 +971,37 @@ margin-right: 175px;
   }
 
   .information h2{
-    font-size: 24px;
-    font-weight: 400;
-    color: black;
-    width: 450px;
+        font-size: 24px;
+        font-weight: 400;
+        color: black;
+        width: 385px;
+        margin-right: 145px;
+        text-align: start;
+        padding-top: 10px;
 }
 
-.information p{
-    max-width: 450px;
-    padding-top: 10px;
-    font-size: 18px;
-    margin: 5px;
+    .information p{
+        max-width: 380px;
+        font-size: 18px;
+        margin-right: 150px;
+        padding-bottom: 10px;
+}
+
+.address h2{
+    text-align: center;
+    margin-right: 265px;
 }
 
 .clock p{
-    margin-right: 260px;
+    margin-right: 315px;
     margin-bottom: 30px;
 }
 
 .information img{
-    margin-bottom: 80px;
+    margin-bottom: 70px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 15px;
 }
 
 #exhibitionimg{
