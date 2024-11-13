@@ -6,6 +6,7 @@ header{
     padding: 0;
     position: sticky;
     top: 0;
+    border-bottom: 5px solid #6C0053;
 }
 
 body{
@@ -61,6 +62,7 @@ footer{
     height: 130px;
     text-align: center;
     position: relative;
+    border-top: 5px solid #6C0053;
 }
 
 .footerlinks a{
@@ -230,7 +232,6 @@ margin-bottom: 150px;
 
 .information h2{
     font-size: 22px;
-    letter-spacing: 0px;
     font-weight: 400;
     color: black;
     margin-right: 170px;
@@ -426,6 +427,7 @@ margin-right: 175px;
 @media only screen and (max-width: 600px) {
     header{
         max-height: 120px;
+        border-color: white;
     }
     
       .logo {
@@ -455,6 +457,7 @@ margin-right: 175px;
         max-height: 80px;
         font-size: 12px;
         margin-top: -10px;
+        border-color: white;
       }
 
       footer li{
@@ -470,24 +473,14 @@ margin-right: 175px;
       h2{
         font-size: 16px;
         font-weight: 400;
-        max-width: 300px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        max-width: 360px;
         margin-bottom: -70px;
-      }
-
-      #kidplays{
-        display: none;
       }
 
       h3{
         font-size: 16px;
         line-height: normal;
         max-width: 300px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
         text-align: center;
         padding-top: 70px;
       }
@@ -524,40 +517,37 @@ margin-right: 175px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-  }
+    }
 
     #specialevents6, #specialevents2, #specialevents4{
         float: none;
         display: block;
         margin-left: auto;
         margin-right: auto;
-  }
+    }
 
     .exhibitionspaces img{
         max-width: 300px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-      }
+    }
 
     .exhibitionspaces p{
         font-size: 16px;
         max-width: 300px;
         margin-top: 10px;
-      }
+    }
 
-      .exhibitionspaces h2{
+    .exhibitionspaces h2{
         margin: 30px;
-        font-size: 22px;
-      }
+        font-size: 20px;
+    }
 
-      .biology p{
-        margin-right: 25px;
-      }
-
-      .ecology p{
-        margin-top: -25px;
-      }
+    .ecology p{
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
 
       .information{
         display: flex;
@@ -565,7 +555,7 @@ margin-right: 175px;
         justify-content: center;
       }
 
-      .information img{
+      .information img, #kidplays, #exhibitionimg, #skeletonimg{
         display: none;
       }
 
@@ -588,12 +578,6 @@ margin-right: 175px;
       .address{
         margin-left: 50px;
         margin-top: -5px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      #exhibitionimg, #redcoatimg, #skeletonimg, #libraryimg{
-        display: none;
       }
 
       .support h1, .internships h1, .volunteer h1{
@@ -606,10 +590,6 @@ margin-right: 175px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-      }
-
-        #kidreadsimg, #mathimg, #museumimg{
-        display: none;
       }
 
       .forkids h1, .forresearchers h1, .forteachers h1{
@@ -636,10 +616,8 @@ margin-right: 175px;
 
       .terms p, .privacy p{
         font-size: 16px;
-        margin-bottom: -30px;
       }
     }
-
 
 /* Medium devices (tablets, 600px to 768px) */
 @media only screen and (min-width: 600px) and (max-width: 767px){
@@ -654,7 +632,7 @@ margin-right: 175px;
 
       header{
         max-height: 120px;
-    }
+      }
     
       .logo {
         max-width: 300px;
@@ -662,30 +640,31 @@ margin-right: 175px;
         margin-top: 25px;
       }
 
+      h1{
+        font-size: 30px;
+      }
+
       h2{
         max-width: 500px;
       }
 
-      #kidplays{
+      #kidplays, .information img, #exhibitionimg{
         display: none;
       }
 
       h3{
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
+        width: 400px;
         text-align: center;
-        padding-top: 20px;
         font-size: 18px;
       }
 
-      .specialevents h1{
+    .specialevents h1{
         margin-top: -90px;
         padding-top: 100px;
         font-size: 30px;
     }
 
-        .specialevents p{
+    .specialevents p{
         max-width: 450px;
     }
 
@@ -713,21 +692,21 @@ margin-right: 175px;
         margin-right: auto;
   }
 
-        #specialevents6, #specialevents2, #specialevents4{
+    #specialevents6, #specialevents2, #specialevents4{
         float: none;
         display: block;
         margin-left: auto;
         margin-right: auto;
   }
 
-      .exhibitionspaces img{
+    .exhibitionspaces img{
         max-width: 500px;
         display: block;
         margin-left: auto;
         margin-right: auto;
       }
 
-      .exhibitionspaces p{
+    .exhibitionspaces p{
         font-size: 16px;
         max-width: 500px;
       }
@@ -743,15 +722,9 @@ margin-right: 175px;
         justify-content: center;
       }
 
-      .information img{
-        display: none;
-      }
-
       .address{
         margin-left: 50px;
         margin-top: -5px;
-        margin-left: auto;
-        margin-right: auto;
       }
 
       .information h2{
@@ -768,10 +741,6 @@ margin-right: 175px;
         margin-right: auto;
         max-width: 600px;
         text-align: center;
-      }
-
-      #exhibitionimg{
-        display: none;
       }
 
       .support, .internships, .volunteer{
@@ -815,7 +784,7 @@ margin-right: 175px;
 
     h3{
         width: 280px;
-        font-size: 16px;
+        font-size: 18px;
         margin-top: 45px;
         letter-spacing: normal;
         line-height: normal;
@@ -862,7 +831,7 @@ margin-right: 175px;
 
     .exhibitionspaces p{
         max-width: 350px;
-        font-size: 15px;
+        font-size: 16px;
 }
     .exhibitionspaces img{
         max-width: 400px;
@@ -872,10 +841,6 @@ margin-right: 175px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-  }
-
-    .information img{
-    display: none;
   }
 
     .address{
@@ -902,7 +867,7 @@ margin-right: 175px;
     font-weight: lighter;
   }
 
-    #exhibitionimg{
+    #exhibitionimg, .information img{
      display: none;
   }
 
@@ -913,7 +878,7 @@ margin-right: 175px;
   }
 
   .terms h3, .privacy h3{
-    font-size: 20px;
+    font-size: 18px;
     display: inline-block;
   }
 
@@ -924,7 +889,6 @@ margin-right: 175px;
 }
 
 @media (min-width: 1025px) and (max-width: 1273px){
-    
     h3{
         width: 300px;
         font-size: 20px;
@@ -966,7 +930,7 @@ margin-right: 175px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        font-size: 18px;
+        font-size: 20px;
         width: 550px;
   }
 
@@ -1005,12 +969,53 @@ margin-right: 175px;
 }
 
 #exhibitionimg{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 50%;
     margin-top: 140px;
     padding-bottom: 50px;
 }
-    
+}
+
+@media (min-width: 1274px) and (max-width: 1400px){
+
+    #nightinmuseum{
+        float: right;
+        margin-right: 105px;
+        padding-top: 70px;
+    }
+
+    #specialevents6{
+        margin-top: -15px;
+    }
+
+    .information h2{
+        font-size: 24px;
+        font-weight: 400;
+        color: black;
+        width: 385px;
+        margin-right: 145px;
+        text-align: start;
+        padding-top: 10px;
+}
+    .information p{
+        max-width: 380px;
+        font-size: 18px;
+        margin-right: 150px;
+        padding-bottom: 10px;
+}
+
+.address h2{
+    text-align: center;
+    margin-right: 265px;
+}
+
+.clock p{
+    margin-right: 315px;
+    margin-bottom: 30px;
+}
+
+#exhibitionimg{
+    width: 50%;
+    margin-top: 140px;
+    padding-bottom: 50px;
+}
 }
