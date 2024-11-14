@@ -141,57 +141,32 @@ h3{
     margin-top: 100px;
 }
 
-#astronaut{
-    width: 35%;
-    margin-left: 180px;
+#astronaut, #energetica, #nightinmuseum{
+    width: 550px;
 }
 
-#specialevents1, #specialevents3{
-    font-size: 22px;
+.specialevents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.specialevents h2{
+    font-size: 30px;
+    color: black;
+    letter-spacing: 3px;
+    margin-top: 50px;
+}
+
+.specialevents p{
+    font-size: 18px;
+    font-weight: lighter;
     font-family: "Kulim Park", sans-serif;
-    margin-left: 180px;
-    margin-top: 1px;
-}
-
-#specialevents2, #specialevents4{
-    font-family: "Kulim Park", sans-serif;
-    font-size: 16px;
-    margin-left: 182px;
-    margin-top: -15px;
-    width: 480px;
-}
-
-#specialevents4{
-margin-bottom: 150px;
-}
-
-#energetica{
-    width: 35%;
-    margin-left: 180px;
-    margin-top: 15px;
-}
-
-#nightinmuseum{
-    width: 35%;
+    width: 250px;
     float: right;
-    margin-top: -1104px;
-    margin-right: 210px;
-}
-
-#specialevents5{
-    font-size: 22px;
-    font-family: "Kulim Park", sans-serif;
-    margin-left: 727px;
-    margin-top: -327px;
-}
-
-#specialevents6{
-    font-family: "Kulim Park", sans-serif;
-    font-size: 16px;
-    margin-left: 727px;
-    width: 480px;
-    margin-bottom: 150px;
-    margin-top: -15px;
+    padding-left: 10px;
+    margin-top: 0px;
+    letter-spacing: 3px;
 }
 
 /* Exhibitions */
@@ -259,7 +234,7 @@ margin-bottom: 150px;
 }
 
 .food h2{
-margin-right: 175px;
+    margin-right: 175px;
 }
 
 .admission h2{
@@ -485,42 +460,23 @@ margin-right: 175px;
         padding-top: 70px;
       }
 
-    .specialevents h1{
-        margin-top: -100px;
-        padding-top: 100px;
+    .specialevents p{
+        font-size: 16px;
+        width: 300px;
+        margin-top: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    .specialevents h2{
+        margin: 20px;
         font-size: 20px;
     }
 
-    .specialevents p{
-        max-width: 250px;
-    }
-
     #astronaut, #energetica, #nightinmuseum{
-        width: 250px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        float: none;
-    }
-
-    #nightinmuseum{
-        margin-top: -120px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        float: none;
-    }
-
-    #specialevents5, #specialevents3, #specialevents1{
-        margin-top: 5px;
-        float: none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #specialevents6, #specialevents2, #specialevents4{
-        float: none;
+        max-width: 300px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -528,9 +484,6 @@ margin-right: 175px;
 
     .exhibitionspaces img{
         max-width: 300px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .exhibitionspaces p{
@@ -658,14 +611,12 @@ margin-right: 175px;
         font-size: 18px;
       }
 
-    .specialevents h1{
-        margin-top: -90px;
-        padding-top: 100px;
-        font-size: 30px;
-    }
-
     .specialevents p{
-        max-width: 450px;
+        display: block;
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
     }
 
     #astronaut, #energetica, #nightinmuseum{
@@ -673,31 +624,7 @@ margin-right: 175px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        float: none;
     }
-
-    #nightinmuseum{
-        margin-top: -120px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        float: none;
-    }
-
-    #specialevents5, #specialevents3, #specialevents1{
-        margin-top: 5px;
-        float: none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-  }
-
-    #specialevents6, #specialevents2, #specialevents4{
-        float: none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-  }
 
     .exhibitionspaces img{
         max-width: 500px;
@@ -792,42 +719,21 @@ margin-right: 175px;
         display: flex;
     }
 
-    .specialevents h1{
-        margin-top: -100px;
-        padding-top: 150px;
-        font-size: 40px;
+    .specialevents p, .specialevents h2{
+        width: 550px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
     }
 
-    .specialevents p{
-        max-width: 450px;
-    }
-
-    #astronaut, #energetica, #nightinmuseum{
+    .specialevents img{
         width: 450px;
         display: block;
         margin-left: auto;
         margin-right: auto;
         float: none;
     }
-
-    #nightinmuseum{
-        margin-top: -120px;
-    }
-
-    #specialevents5, #specialevents3, #specialevents1{
-        margin-top: 5px;
-        float: none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-  }
-
-    #specialevents6, #specialevents2, #specialevents4{
-        float: none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-  }
 
     .exhibitionspaces p{
         max-width: 350px;
@@ -895,44 +801,17 @@ margin-right: 175px;
         margin-top: 45px;
     }
 
-    .specialevents h1{
-        margin-top: -100px;
-        padding-top: 150px;
-        font-size: 40px;
-    }
-
     .specialevents p{
-        width: 550px;
+        width: 650px;
     }
 
     #astronaut, #energetica, #nightinmuseum{
-        width: 550px;
+        width: 650px;
         display: block;
         margin-left: auto;
         margin-right: auto;
         float: none;
     }
-
-    #nightinmuseum{
-        margin-top: -120px;
-    }
-
-    #specialevents5, #specialevents3, #specialevents1{
-        margin-top: 5px;
-        float: none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-  }
-
-    #specialevents6, #specialevents2, #specialevents4{
-        float: none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 20px;
-        width: 550px;
-  }
 
   .information h2{
         font-size: 24px;
@@ -977,14 +856,16 @@ margin-right: 175px;
 
 @media (min-width: 1274px) and (max-width: 1400px){
 
-    #nightinmuseum{
-        float: right;
-        margin-right: 105px;
-        padding-top: 70px;
+    .specialevents p{
+        width: 750px;
     }
 
-    #specialevents6{
-        margin-top: -15px;
+    #astronaut, #energetica, #nightinmuseum{
+        width: 750px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
     }
 
     .information h2{
