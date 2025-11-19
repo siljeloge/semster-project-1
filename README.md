@@ -30,7 +30,7 @@ The page includes:
 
 1. Clone the repo:
 ```bash
-git clone git@github.com:siljeloge/HTML-CSS-CA.git
+gh repo clone siljeloge/semster-project-1
 ```
 
 2. Install the dependencies:
