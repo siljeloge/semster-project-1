@@ -8,7 +8,7 @@ For my first semester project, I was to design and make a website for a museum c
 
 <h1>Description</h1>
 This project were supposed to simulate an actual request from a customer, where were to come up with the design, as well as code it with HTML and CSS. First I did some research on different museum-websites, just to get a sense of how the layouts and colors were used. Since this was primarily for kids, I wanted to use playful colors, kind of futuristic fonts to represent the museum-vibe and filled the website with informative photos provided by the "customer".
-I designed the website in Figma, where I also designed the logo. Then I started with the HTML-files, CSS and mediaqueries. 
+I designed the website in Figma, where I also designed the logo. Then I added the HTML-files, CSS and mediaqueries. 
 The page includes:
 
 - Informative index.html with dynamic photos
