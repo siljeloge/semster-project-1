@@ -4,7 +4,6 @@ header{
     width: 100%;
     margin: 0;
     padding: 0;
-    position: sticky;
     top: 0;
     border-bottom: 5px solid #6C0053;
 }
@@ -25,7 +24,6 @@ nav li{
     display: inline-block;
     margin: 0;
     padding: 0;
-    position: sticky;
     top: 0;
 }
 
@@ -68,10 +66,8 @@ footer{
 .footerlinks a{
     color: black;
     text-decoration: none;
-    font-family: "Kulim Park", sans-serif;
     font-size: 14px;
     padding: 20px;
-    font-weight: 150;
 }
 
 .footerlinks li{
@@ -88,7 +84,7 @@ h1{
     color: #6C0053;
     text-align: center;
     letter-spacing: 10px;
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 #vrgoggles{
@@ -132,17 +128,18 @@ h3{
 }
 
 .specialevents h1{
-    font-family: "Kulim Park", sans-serif;
-    font-weight: lighter;
-    font-size: 56px;
-    color: #6C0053;
     text-align: center;
-    letter-spacing: 10px;
     margin-top: 100px;
 }
 
-#astronaut, #energetica, #nightinmuseum{
+#astronaut, #energetica{
     width: 550px;
+}
+
+#nightinmuseum{
+    width: 550px;
+    height: 650px;
+    margin-bottom: 150px;
 }
 
 .specialevents{
